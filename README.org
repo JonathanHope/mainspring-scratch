@@ -1,0 +1,5 @@
+* mainspring-scratch
+
+This is a very simple package used to launch scratch buffers. To start a scratch buffer run ~mainspring-scratch~. It wil prompt you for which mode you want the scratch buffer to be in. This can be configured with the ~mainspring-scratch-modes~ variable.
+
+The name of the mode is in the form of ~*~ + ~separator~ + ~mode~ + ~separator~ + ~index~ + ~*~. The separator can be configured with ~mainspring-scratch-separator~. The index starts at zero and increments each time you open a scratch buffer of the same mode type.
